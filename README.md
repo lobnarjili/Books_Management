@@ -6,24 +6,24 @@ This project consists of a Book Management App that uses Spring Boot for the bac
 The application will be accessible at http://localhost:1997.
 
 # Dependencies
-. Spring Boot Starter Parent: 3.3.0
-. Spring Boot Starter Data JPA
-. Spring Boot Starter Validation
-. Spring Boot Starter Web
-. Spring Boot DevTools
-. Project Lombok
-. Spring Boot Starter Test
-. MySQL Connector Java
-. Sping boot starter oauth2 resource server
+1. Spring Boot Starter Parent: 3.3.0
+2. Spring Boot Starter Data JPA
+3. Spring Boot Starter Validation
+4. Spring Boot Starter Web
+5. Spring Boot DevTools
+6. Project Lombok
+7. Spring Boot Starter Test
+8. MySQL Connector Java
+9. Sping boot starter oauth2 resource server
 
 # Configuration
 The application uses MySQL as the database. create a new DataBase "books_db" . Configure the application.properties file with your database settings :
  
-spring.datasource.url=jdbc:mysql://localhost:3306/books_db
-spring.datasource.username=yourusername
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+1.spring.datasource.url=jdbc:mysql://localhost:3306/books_db
+2.spring.datasource.username=yourusername
+3.spring.datasource.password=yourpassword
+4.spring.jpa.hibernate.ddl-auto=update
+5.spring.jpa.show-sql=true
 
 
 
